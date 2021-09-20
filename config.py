@@ -1,3 +1,7 @@
+"""
+Manages our configuration.
+"""
+
 import configparser
 
 

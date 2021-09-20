@@ -1,6 +1,8 @@
 import configparser
 
-from main import CONFIG_FILE_PATH, AUTH_SECTION_KEY
+
+CONFIG_FILE_PATH = "config.ini"
+AUTH_SECTION_KEY = "auth"
 
 
 def read():

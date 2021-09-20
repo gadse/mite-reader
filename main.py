@@ -19,7 +19,7 @@ def main():
     entries = mite.get_time_entries_of_project(projects[0])
     for entry in entries:
         e = entry["time_entry"]
-        print(f"{e['id']:20d} | {e['user_name']:30s} | {e['minutes']:03d} min | {e['note']:60s}")
+        print(f"{e['id']:20d} | {e['user_name']:30s} | {e['minutes']:03d} min | {e['revenue']/100:7.2f} EUR | {e['note']:60s}")
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ def main():
     pprint(mite.get_base_info())
     projects = mite.get_projects()
     pprint(projects)
-    tasks = mite.get_tasks_of_project(projects[0])
+    tasks = mite.get_time_entries_of_project(projects[0])
     pprint(tasks)
 
 

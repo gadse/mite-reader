@@ -26,7 +26,7 @@ def get_base_info():
     return result
 
 
-def get_tasks_of_project(project):
+def get_time_entries_of_project(project):
     project_id = project['project']['id']
     project_param = f"project_id={project_id}"
     url = f"{BASE_URL}/time_entries.json?{AUTH_PARAM}&{project_param}"

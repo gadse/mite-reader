@@ -20,4 +20,8 @@ def read():
 
 
 def auth_info():
+    """
+    Returns (dict):
+        the configured auth info.
+    """
     return dict(read()[AUTH_SECTION_KEY])
